@@ -1,4 +1,6 @@
-# Tabs
+# Infinity
+
+This plugin will help you to create endless scroll on your site.
 
 _Please try it out in a project, and [make suggestions][issues] or [report bugs][issues]!_
 
