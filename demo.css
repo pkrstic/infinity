@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	padding: 0;
+	font: 14px sans-serif;
+	background: #f0f0f0;
+}
+
+h1,h2 {
+	color: #357;
+	font: bold 24px sans-serif;
+}
+
+h2 {
+	color: #79b;
+	font-size: 18px;
+}
+
+.content {
+	margin: 20px auto;
+	width: 600px;
+	border: 1px solid #999;
+	background: #fff;
+	padding: 10px;
+	color: #000;
+	border-radius: 10px;
+}
+
+.infBox {
+	height: 500px;
+	line-height: 500px;
+	text-align: center;
+	background: #eee;
+	border-radius: 10px;
+	margin: 5px 0;
+	font-size:50px;
+	font-weight: bold;
+	text-shadow:0 3px 5px rgba(0,0,0,0.4);
+}
+
+#infiniteLoading {
+	text-align: center;
+	padding: 10px;
+	background: #eef;
+	border-radius: 10px;
+	margin: 5px 0;
+}

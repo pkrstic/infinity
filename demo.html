@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Infinity demo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" media="screen" href="demo.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="infinity.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.loadNewPage').infinity({
+			url: 'content.php',
+			load: function(data){
+				$('.infinite').append(data.content);
+			}
+		});
+	});
+</script>
+</head>
+<body>
+<div class="content">
+	<h1 class="title">Infinity demo</h1>
+	<div class="infinite">
+		<div class="infBox">PAGE: 0</div>
+	</div>
+	<div class="loadNewPage">
+		<div id="infiniteLoading" style="display:none">Loading...</div>
+	</div>
+</div>
+</body>
+</html>
